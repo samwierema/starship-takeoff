@@ -17,7 +17,7 @@ func main() {
 
 	var f int
 
-	for i := 0; i < 3; i++ {
+	for i := 0; i < 10; i++ {
 		fmt.Scanln(&f)
 		if f < r {
 			fmt.Print("TOO LOW")
